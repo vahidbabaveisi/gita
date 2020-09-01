@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Iransans';
+  src: url('./fonts/Iransans/IRANSansWeb.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/Iransans/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./fonts/Iransans/IRANSansWeb.woff2') format('woff2'), /* Modern Browsers */
+  url('./fonts/Iransans/IRANSansWeb.woff') format('woff'), /* Modern Browsers */
+  url('./fonts/Iransans/IRANSansWeb.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('./fonts/Iransans/IRANSansWeb.svg#Yekan') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  font-family: Iransans;
+}
+
+.stage1, .stage2, .stage3 {
+  
+  border: solid 1px #007bff;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ecebeb;
+  background-color: #0b4c76;
+ 
+
+
+}
+
+
+.line1, .line2{
+
+  height: 10px;
+  border: 1px  solid #0b4c76;
+  background-color: #0b4c76;
+  position: relative;
+  top: 25px;
+}
+
+.stage_text{
+  text-align: center;
+}
+
+
+.stage_inactive{
+
+  opacity: 0.7;
+  
+}
+
+.line_inactive{
+
+  opacity: 0.6;
+
+}
+
+.form_wraper{
+
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  padding: 30px;
+  margin: 20px;
+
+}
+
+.stage{
+  margin: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+}
+
+#tel, #national_id, #avatar, #mobile, #postal_code{
+  direction: ltr;
+}
+
+#form_request input{
+  height: 40px;
+  border-radius: 10px;
+  border:solid 1px #0b4c76;
+  background: radial-gradient(red 50px);
+}
+#form_request textarea{
+  height: 80px;
+  border-radius: 10px;
+  border:solid 1px #0b4c76;
+  background: radial-gradient(red 50px);
+}
+
+.fa-plus{
+  font-size: 20px;
+}
+
+#accordion{
+  margin-top: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fa-minus:hover{
+       color: red;
+}
+.fa-minus, #title_degree{
+  font-size: 16px;
+}
+
+.fa-plus:hover{
+      color: blue;
+}
+#review input {
+     border: none;
+     margin-right: 5px;
+   
+}
+
+#review label{
+  font-weight: bold;
+}
+
+.fa-graduation-cap{
+  font-size: 20px;
+  color: green;
+  float: right;
+  margin-left: 5px;
+}
