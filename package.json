@@ -12,6 +12,7 @@
     "react-scripts": "3.4.1",
     "react-tooltip": "^4.2.7"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
